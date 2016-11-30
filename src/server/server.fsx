@@ -2,7 +2,6 @@
 // Start up Suave.io
 // --------------------------------------------------------------------------------------
 
-#r "../../packages/FAKE/tools/FakeLib.dll"
 #r "../../packages/Suave/lib/net40/Suave.dll"
 
 #load "routes.fsx"
