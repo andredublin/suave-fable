@@ -1,0 +1,22 @@
+{
+    "targets": {
+        "develop": {
+            "sourceMaps": true,
+            "projFile": "./src/app/app.fsproj",
+            "verbose": true,
+            "watch": true,
+            "rollup": {
+                "dest": "./src/server/public/bundle.js"
+            }
+        },
+        "release": {
+            "sourceMaps": false,
+            "projFile": "./src/app/app.fsproj",
+            "verbose": true,
+            "watch": false,
+            "rollup": {
+                "dest": "./src/server/public/bundle.js"
+            }
+        }
+    }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "suave-fable",
+  "version": "1.0.0",
+  "devDependencies": {
+    "fable-arch": "^0.9.12",
+    "fable-compiler": "^0.7.11",
+    "fable-core": "^0.7.10",
+    "fable-plugins-nunit": "^0.7.1",
+    "fable-powerpack": "^0.0.14",
+    "mocha": "^3.2.0"
+  },
+  "scripts": {
+    "build": "fable",
+    "release": "fable --target release",
+    "develop": "fable --target develop"
+  }
+}
